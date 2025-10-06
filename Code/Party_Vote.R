@@ -57,6 +57,7 @@ map_afd <- ggplot() +
   theme_void()
 
 plot(map_afd)
+ggsave('map_afd.png', plot = map_afd, width=12, height=6)
 
 # Map 2: Panel Map
 major_parties <- c("CDU", "CSU", "GRUNE", "AFD", "SPD")
@@ -76,6 +77,7 @@ map_major <- ggplot() +
   theme_void()
 
 plot(map_major)
+ggsave(' map_major_parties.png', plot = map_major, width=12, height=6)
 
 
 # Map 3: Winner map
@@ -104,6 +106,7 @@ map_winner <- ggplot() +
   theme_void()
 
 plot(map_winner)
+ggsave('map_winners.png', plot = map_winner, width=12, height=6)
 
 # https://youtu.be/thAB4IzplQA (GDP, Nuts3 level)
 
