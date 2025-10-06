@@ -191,36 +191,6 @@ The analysis includes:
 - **Choropleth mapping** showing continuous vote share data
 - **Categorical mapping** displaying discrete winner categories
 
-### Visualization Approach
-Three complementary maps provide different perspectives:
-
-1. **Single-Party Focus:** Deep dive into AFD support patterns
-2. **Multi-Party Comparison:** Side-by-side analysis of major parties
-3. **Electoral Geography:** Winner-takes-all perspective on regional dominance
-
-### Code Quality
-- Clean, well-commented R code
-- Efficient use of tidyverse pipeline (`|>` operator)
-- Proper spatial data handling with sf package
-- Automated data download via giscoR API
-- Colorblind-friendly palettes for accessibility
-- Reproducible workflow from raw data to final visualizations
-
-## ✅ Reproducibility Checklist
-
-This project meets all reproducibility requirements:
-
-- ✅ **Clear folder structure:** Raw data source documented, code organized logically
-- ✅ **Data accessibility:** Public dataset from Harvard Dataverse (permanent DOI)
-- ✅ **Complete code:** All analysis steps from data loading to visualization
-- ✅ **Automated output:** Running the script generates all maps automatically
-- ✅ **Environment defined:** Package requirements specified and auto-installed via `pacman`
-- ✅ **Geographic data automation:** NUTS boundaries downloaded programmatically
-- ✅ **Documentation:** Comprehensive README with setup and execution instructions
-- ✅ **Version control:** Proper Git usage with meaningful commit messages
-- ✅ **Accessibility:** Colorblind-friendly visualizations (Viridis palette)
-
-**Goal achieved:** An independent peer can clone this repository and reproduce all results with minimal modifications (only setting the working directory path).
 
 ## 🔍 Key Insights
 
@@ -238,31 +208,6 @@ Based on the 2019 EU Parliament Election in Germany:
 - **Urban-rural split** particularly visible in Green party support
 - **Regional party systems:** Bavaria (CSU) vs. rest of Germany (CDU)
 - **Persistence of historical patterns:** Post-reunification political geography still evident
-
-## 📸 Sample Output
-
-The script generates three main visualizations:
-
-### 1. AFD Vote Share Map
-- Choropleth map showing percentage of votes for Alternative für Deutschland
-- Color intensity represents vote share strength
-- White borders delineate NUTS-3 regions
-
-### 2. Major Parties Panel Map
-- Five-panel comparison of CDU, CSU, GRÜNE, AFD, and SPD
-- Uniform color scale enables direct comparison
-- Reveals complementary regional strongholds
-
-### 3. Winner Map
-- Categorical display of winning party per region
-- Party-branded colors for intuitive understanding
-- Shows spatial clustering of political preferences
-
-All maps include:
-- Professional theme (void background)
-- Clear titles and subtitles
-- Consistent cartographic style
-- High-resolution output suitable for publication
 
 ## 🔍 Future Work
 
