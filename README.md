@@ -1,9 +1,9 @@
 # German EU Parliament Election Analysis (2019) - Data Science 1 Mini Project
 
-## 📋 Project Overview
+##  Project Overview
 This project analyzes and visualizes voting patterns in the 2019 European Parliament Election across Germany at the NUTS-3 regional level. Using geospatial data and electoral statistics, the analysis maps party vote shares and identifies regional political preferences across 401 German administrative districts.
 
-## 👥 Author
+##  Author
 - **Name:** Nahian Ibnat
 - **Course:** Data Science 1
 - **Institution:** CEU (Central European University) - MA EDP
@@ -28,7 +28,7 @@ Ibnat_miniproject/
 └── README.md                         # Project documentation (this file)
 ```
 
-## 🔧 Technologies Used
+##  Technologies Used
 - **R** (version 4.x recommended)
 - **Key Libraries:**
   - `tidyverse` - Data manipulation and visualization (ggplot2, dplyr, readr, tidyr)
@@ -37,7 +37,7 @@ Ibnat_miniproject/
   - `viridis` - Colorblind-friendly color palettes
   - `pacman` - Package management
 
-## 📊 Dataset
+##  Dataset
 
 ### Electoral Data
 - **Name:** European National Election Dataset (EU NED) - European Parliament
@@ -60,7 +60,7 @@ Ibnat_miniproject/
 - **Projection:** EPSG:3035 (Lambert Azimuthal Equal-Area)
 - **Year:** 2016 boundaries
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - R (version 4.0 or higher)
@@ -99,20 +99,20 @@ source("Code/Party_Vote.R")
 ```
 
 This single command will:
-- ✅ Install all required packages
-- ✅ Download NUTS-3 geographic boundaries for Germany
-- ✅ Load and process electoral data from Data/ folder
-- ✅ Calculate vote share percentages
-- ✅ Generate three comprehensive visualization maps
-- ✅ Save outputs to Output/ folder
-- ✅ Display all plots automatically
+- Install all required packages
+- Download NUTS-3 geographic boundaries for Germany
+- Load and process electoral data from Data/ folder
+- Calculate vote share percentages
+- Generate three comprehensive visualization maps
+-  Save outputs to Output/ folder
+- Display all plots automatically
 
 **Output files** are saved in the `Output/` directory:
 - `map_afd.png` - AFD vote share choropleth
 - `map_major_parties.png` - Five-party panel comparison
 - `map_winners.png` - Electoral geography winner map
 
-## 📈 Analysis Workflow
+## Analysis Workflow
 
 ### 1. **Environment Setup**
    - Clear workspace and set working directory
@@ -165,7 +165,7 @@ This single command will:
      - AFD: Light Blue
    - Shows clear geographic clustering of party support
 
-## 📊 Analysis Summary
+## Analysis Summary
 
 ### Descriptive Statistics
 The analysis includes:
@@ -182,7 +182,7 @@ The analysis includes:
 - **Categorical mapping** displaying discrete winner categories
 
 
-## 🔍 Key Insights
+## Key Insights
 
 Based on the 2019 EU Parliament Election in Germany:
 
@@ -199,7 +199,7 @@ Based on the 2019 EU Parliament Election in Germany:
 - **Regional party systems:** Bavaria (CSU) vs. rest of Germany (CDU)
 - **Persistence of historical patterns:** Post-reunification political geography still evident
 
-## 🔍 Future Work
+## Future Work
 
 ### Visualization Enhancements
 - **Interactive maps:** Shiny dashboard with hover information
@@ -212,7 +212,7 @@ Based on the 2019 EU Parliament Election in Germany:
 - **Multi-level analysis:** Compare NUTS-1, NUTS-2, and NUTS-3 patterns
 - **National elections:** Compare EP results with Bundestag elections
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 **Common Issues:**
 
@@ -244,7 +244,7 @@ Based on the 2019 EU Parliament Election in Germany:
    - Close other applications if R crashes
    - Consider using NUTS-2 (fewer regions) for testing
 
-## 📚 References & Data Sources
+## References & Data Sources
 
 ### Primary Data
 - **Schmitt, Hermann; Braun, Daniela; Popa, Sebastian Adriean; Teperoglou, Eftichia, 2021**, "European Parliament Election Study 2019, Voter Study", Harvard Dataverse, V1. [DOI: 10.7910/DVN/IQRYP5](https://doi.org/10.7910/DVN/IQRYP5)
@@ -257,7 +257,7 @@ Based on the 2019 EU Parliament Election in Germany:
 - Color accessibility: [Coblis Color Blindness Simulator](https://www.color-blindness.com/coblis-color-blindness-simulator/)
 - NUTS-3 GDP tutorial: [YouTube](https://youtu.be/thAB4IzplQA)
 
-## 📝 Citation
+## Citation
 
 When using this analysis or code, please cite:
 
@@ -273,15 +273,15 @@ When using this analysis or code, please cite:
 
 And cite the original data source (Schmitt et al., 2021).
 
-## 📜 License
+##  License
 This project is created for educational purposes as part of the Data Science 1 course at CEU.
 
-## 📧 Contact
+##  Contact
 - **GitHub:** [@Nahian2400062](https://github.com/Nahian2400062)
 - **Institution:** Central European University (CEU)
 - **Program:** MA in Economic Data and Policy (EDP)
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 - **Harvard Dataverse** for hosting the EU NED dataset
 - **Eurostat GISCO** for providing high-quality geographic data
 - **Data Science 1** course instructors and teaching assistants at CEU
