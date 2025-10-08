@@ -9,14 +9,6 @@ This project analyzes and visualizes voting patterns in the 2019 European Parlia
 - **Institution:** CEU (Central European University) - MA EDP
 - **Semester:** Fall 2025
 
-## 🎯 Objectives
-- Demonstrate **reproducibility** in data science workflow
-- Showcase **git skills** through proper version control
-- Analyze regional voting patterns in Germany's 2019 EU Parliament Election
-- Create geospatial visualizations of party vote shares at NUTS-3 level
-- Identify regional strongholds and electoral geography of major German parties
-- Generate publication-ready maps with automated output
-- Provide comparative analysis across CDU, CSU, SPD, AFD, and GRÜNE parties
 
 ## 📁 Repository Structure
 ```
@@ -35,8 +27,6 @@ Ibnat_miniproject/
 ├── Project.pdf                       # Project documentation
 └── README.md                         # Project documentation (this file)
 ```
-
-**Note:** This structure follows reproducibility principles with clear separation of raw data, code, and outputs in dedicated folders.
 
 ## 🔧 Technologies Used
 - **R** (version 4.x recommended)
@@ -210,12 +200,6 @@ Based on the 2019 EU Parliament Election in Germany:
 - **Persistence of historical patterns:** Post-reunification political geography still evident
 
 ## 🔍 Future Work
-
-### Methodological Extensions
-- **Temporal analysis:** Compare 2014, 2019, and 2024 EP elections
-- **Turnout analysis:** Examine relationship between participation and party success
-- **Demographic correlation:** Link voting patterns with socioeconomic indicators
-- **Statistical modeling:** Regression analysis of vote determinants
 
 ### Visualization Enhancements
 - **Interactive maps:** Shiny dashboard with hover information
